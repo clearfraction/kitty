@@ -1,7 +1,7 @@
 %global librsync_version 2.3.2
 
 Name     : kitty
-Version  : 0.25.0
+Version  : 0.26.0
 Release  : 1
 URL      : https://github.com/kovidgoyal/kitty
 Source0  : https://github.com/kovidgoyal/kitty/archive/v%{version}.tar.gz#/kitty-%{version}.tar.gz
@@ -28,6 +28,7 @@ BuildRequires : pkgconfig(x11)
 BuildRequires : pkgconfig(xpm)
 BuildRequires : pkgconfig(xt)
 BuildRequires : cmake
+BuildRequires : openssl-dev
 
 
 %description
