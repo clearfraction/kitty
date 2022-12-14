@@ -1,7 +1,7 @@
 %global librsync_version 2.3.2
 
 Name     : kitty
-Version  : 0.26.0
+Version  : 0.26.5
 Release  : 1
 URL      : https://github.com/kovidgoyal/kitty
 Source0  : https://github.com/kovidgoyal/kitty/archive/v%{version}.tar.gz#/kitty-%{version}.tar.gz
