@@ -78,7 +78,6 @@ python3 setup.py --verbose linux-package --prefix %{buildroot}%{_prefix}
 mkdir -p %{buildroot}/usr/lib64 && cp -pr /usr/lib64/librsync* %{buildroot}/usr/lib64
 
 
-
 %files
 %defattr(-,root,root,-)
 /usr/bin/kitty
